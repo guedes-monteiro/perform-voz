@@ -1,0 +1,140 @@
+/*************** CSS EDITAVEL ****************************
+.content-holder {
+        background: #F3F3F3 !important;
+    }*/
+
+/* Configura borda do mouse sobre das imagens de portfolio  */ 
+.zoom-icon {
+border-radius: 0px;
+overflow: hidden;
+}
+
+/* Cor de fundo dos blocos fullwidth-row  */ 
+.fullwidth-row-custom-1:before {background: #3E70A2;}
+.fullwidth-row-custom-2:before {background: #d81d1f;}
+
+
+
+/**************************************************************/
+/******************* DO NOT EDIT BELOW THIS *******************/
+/***************** NÃO EDITE AS LINHAS ABAIXO *****************/
+/**************************************************************/
+
+
+/************** GLOBAL CSS *****************/
+    
+    /* Reposiciona Menu */
+    .nav__primary {
+        top: 10px;
+    }
+    
+    /* Personaliza chamada da página inicial do site */
+    .header-info_title {
+        width: 500px;
+        font-size: 63px;
+    }
+    
+    /* Esconde botão da chamada da página inicial do site */
+    .header-info_btn {
+         display: none;
+    }
+    
+    /* Personaliza títulos do shortcode Carrousel_OWL */
+    .es-carousel_li h5 a {
+        text-decoration: none;
+        text-transform: none;
+    }
+    
+    /* Remove sombras dos títulos do site */
+    h1, h2, h3, h4, h5, h6 {
+        text-shadow: none;
+        text-transform: none;
+    }
+    
+    /* Configura texto h2 */
+    h2 {
+        letter-spacing: -2px;
+        margin: 0 0 10px 0;
+    }
+    
+    /* Personaliza fundos de PORTFOLIO do site */
+    .filterable-portfolio .portfolio_item_holder {
+        margin: 5px;
+        border: 1px solid #dddddd;
+        background: #fff;
+    }
+
+    /* Personaliza BORDA DAS IMAGENS PORTFOLIO do site */
+    .thumbnail img, .featured-thumbnail img {
+    	border-radius: 0px;
+    }
+    
+    /* Personaliza PORTFOLIO do site */
+    .caption.caption__portfolio {
+        padding: 3px 25px;
+    }
+    
+/* Cor de fundo dos blocos fullwidth-row  */ 
+.fullwidth-row-1:before {background: #fff;}
+.fullwidth-row-2:before {background: #eee;}
+.fullwidth-row-3:before {background: #ddd;}
+.fullwidth-row-4:before {background: #ccc;}
+.fullwidth-row-5:before {background: #bbb;}
+.fullwidth-row-6:before {background: #aaa;}
+.fullwidth-row-7:before {background: #999;}
+.fullwidth-row-8:before {background: #888;}
+.fullwidth-row-9:before {background: #777;}
+.fullwidth-row-10:before {background: #666;}
+.fullwidth-row-11:before {background: #555;}
+.fullwidth-row-12:before {background: #444;}
+.fullwidth-row-13:before {background: #333;}
+.fullwidth-row-14:before {background: #222;}
+.fullwidth-row-15:before {background: #111;}
+.fullwidth-row-16:before {background: #000;}
+
+
+
+/* Blocos fullwidth-row com linhas divisórias - features-row  */ 
+
+.features-row [class*="span"]:after {
+right: -1px;
+top: 0px;
+bottom: 0px;
+background: #e0e0e0;
+width: 1px;
+}
+
+
+/*Carousel_owl - Permite imagens terem tamanhos definidos pelo usuário*/
+.owl-carousel .item figure a img {width:auto;}
+
+
+/***************** RESPONSIVE CSS ************************/
+
+@media only screen and (max-width: 768px) {
+    
+    
+    h1, .motopress-text-obj h1, .motopress-text-obj h1 span {font-size: 9vw; line-height: 100%;}
+    h2, .motopress-text-obj h2, .motopress-text-obj h2 span {font-size: 8vw; line-height: 100%;}
+    /*
+    h1, .motopress-text-obj h1, .motopress-text-obj h1 span {font-size: 1.5em; line-height: 100%;}
+    h2, .motopress-text-obj h2, .motopress-text-obj h2 span {font-size: 1.2em; line-height: 100%;}
+    */
+  	.header-info_layer.layer_3 .header-info_title {width: auto;}
+    
+}  
+
+@media only screen and (orientation : portrait) {
+    
+  	.header-info_layer.layer_3 .header-info_title {width: auto; font-size: 44px; line-height: 110%;}
+}  
+
+/**Oculta animacao home*/
+@media only screen and (max-width: 768px) {
+        div.header-info.header-info-home {
+            display: none;
+        }
+        .home header.header {
+            position: relative;
+        }
+    }

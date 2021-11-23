@@ -1,0 +1,81 @@
+.fundo_principal {
+    background-color: #F9EAC3;
+}
+
+.text_color_banner {
+    color: #000000;
+}
+
+.container-login {
+    display: flex;
+    /* flex-flow: column wrap; */
+    justify-content: flex-end;
+    width: 100%;
+    height: 60px;
+    padding-top: 10px;
+    /* border-radius: 4px; */
+    /* font-family: Roboto;
+    font-weight: bold; */
+    /* font-size: 18px;
+    line-height: 100%; */
+    /* text-align: center; */
+    /* text-decoration: none;
+    cursor: pointer; */
+    /* background-color: #568412; */
+    /* color: ${black};   */
+}
+
+.seu_profissional {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 100%;
+    height: 54px;
+    border-radius: 4px;
+    /* font-family: Roboto;
+    font-weight: bold; */
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    /* color: ${black};   */
+}
+
+.profissional_socio {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 250px;
+    height: 54px;
+    border-radius: 4px;
+    /* font-family: Roboto;
+    font-weight: bold; */
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    /* color: ${black};   */
+}
+
+.login {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 100px;
+    height: 54px;
+    border-radius: 4px;
+    margin-left: 15px;;
+    /* font-family: Roboto;
+    font-weight: bold; */
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    /* color: ${black};   */
+}
